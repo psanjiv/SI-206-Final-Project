@@ -6,7 +6,6 @@ from hard_code_db import *
 run_db = False
 reset = False
 run_date_table = True
-program_count = 0
 
 conn = sqlite3.connect('stock_weather_data_demo.db')
 cur = conn.cursor()

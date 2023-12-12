@@ -2,7 +2,6 @@ import sqlite3
 from p1 import *
 from hard_code_db import *
 reset = False
-program_count = 5
 conn = sqlite3.connect('stock_weather_data_demo.db')
 cur = conn.cursor()
 # RESET STOCK AND WEATHER TABLES IF NEEDED
